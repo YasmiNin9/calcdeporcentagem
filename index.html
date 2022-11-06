@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investimento - Teste</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Insira os valores investidos nas caixas abaixo</h1>
+            <h3>e descubra em seguida, em porcentagem, quanto foi investido na empresa.</h3>
+        </div>
+        <div id="inputs">
+            <div class="valor pessoa1">
+                <p> Insira o valor investido: </p>
+                <input class="box" type="number" name="vlr1" id="vlr1">
+                <input class="btn" type="button" value="Confirmar" onclick="inserir('vlr1')">
+                <p id="result"> </p>
+                <p id="porce"> </p>
+            </div>
+
+            <div class="valor pessoa2">
+                <p> Insira o valor investido: </p>
+                <input class="box" type="number" name="vlr1" id="vlr2">
+                <input class="btn" type="button" value="Confirmar" onclick="inserir('vlr2')">
+                <p id="result2"> </p>
+            </div>
+
+            <div class="valor pessoa3">
+                <p> Insira o valor investido: </p>
+                <input class="box" type="number" name="vlr1" id="vlr3">
+                <input class="btn" type="button" value="Confirmar" onclick="inserir('vlr3')">
+                <p id="result3"> </p>
+
+            </div>
+
+            <div class="valor pessoa4">
+                <p> Insira o valor investido: </p>
+                <input class="box" type="number" name="vlr1" id="vlr4">
+                <input class="btn" type="button" value="Confirmar" onclick="inserir('vlr4')">
+                <p id="result4"> </p>
+            </div>
+            <div class="calculo">
+              <input class="btn" type="button" value="Calcular percentual" onclick="calc()">
+              <input class="btn_clear" type="button" value="Limpar" onclick="limpar()">
+            </div>
+            <div class="resultados">
+              <p id='v1'></p>
+              <p id='v2'></p>
+              <p id='v3'></p>
+              <p id='v4'></p>
+              <p id='v5'></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

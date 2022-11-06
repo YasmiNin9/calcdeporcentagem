@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+.title, #inputs {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn {
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    background-color: rgb(161, 250, 198);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(113, 233, 173);
+}
+
+.btn_clear {
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    background-color: rgb(212, 120, 120);
+}
+.btn_clear:hover {
+    background-color: rgb(240, 134, 134);
+
+}
+
+.box {
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
